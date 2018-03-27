@@ -24,6 +24,8 @@ body {
 
   height: 100%;
   position: absolute;
+
+  overflow: hidden;
 }
 
 .container .col.left {
@@ -118,6 +120,20 @@ ul.buttons li * {
 
 ul.buttons li p {
   text-transform: uppercase;
+}
+
+ul.images {
+  overflow:hidden;
+}
+
+ul.images li {
+  display: inline;
+  overflow: hidden;
+}
+
+ul.images li img {
+  width: 100%;
+  height: auto;
 }
 
 /* COLOR HELPERS */
