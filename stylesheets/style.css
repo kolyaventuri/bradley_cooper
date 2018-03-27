@@ -50,10 +50,28 @@ body {
   flex: 1 0 calc(100% / 3);
 
   height: calc(100% / 3);
-
-  background: white;
 }
 
 .grid .cell.wide {
   flex: 1 0 calc(100% * (2/3));
+}
+
+.blue {
+  background: #1e8bc4;
+}
+
+.green {
+  background: #35bc7a;
+}
+
+.red {
+  background: #f15a49;
+}
+
+.yellow {
+  background: #ff9e00;
+}
+
+.orange {
+  background: #f86925;
 }
