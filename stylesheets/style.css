@@ -40,3 +40,20 @@ body {
 
   background: #00FF00;
 }
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.grid .cell {
+  flex: 1 0 calc(100% / 3);
+
+  height: calc(100% / 3);
+
+  background: white;
+}
+
+.grid .cell.wide {
+  flex: 1 0 calc(100% * (2/3));
+}
