@@ -124,6 +124,7 @@ ul.buttons li p {
 
 ul.images {
   overflow:hidden;
+  position: relative;
 }
 
 ul.images li {
@@ -134,6 +135,32 @@ ul.images li {
 ul.images li img {
   width: 100%;
   height: auto;
+}
+
+.col.right .image_nav {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+  width: 95%;
+}
+
+.col.right .image_nav svg {
+  font-size: 3em;
+
+  opacity: 0.25;
+  transition: opacity 0.25s;
+  cursor: pointer;
+}
+
+.col.right .image_nav svg:hover {
+  opacity: 1;
+}
+
+.col.right .image_nav svg:last-child {
+  float: right;
 }
 
 /* COLOR HELPERS */
