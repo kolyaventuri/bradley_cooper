@@ -177,6 +177,7 @@ ul.images li img {
 }
 
 .col.right .breadcrumbs svg:first-child {
+  font-size: 0.8em;
   opacity: 1;
 }
 
